@@ -1,0 +1,20 @@
+@do : #f11d40;
+@xanh : #bedb39;
+@cam : #fd7400;
+@white : #fff;
+@den : #464646;
+@xxam : #004358;
+@xam : #f2f2f2;
+.fontt (@em) {
+    font-family: osb;
+    font-size: @em;
+}
+
+.fontc (@em) {
+    font-family: osr;
+    font-size: @em;
+}
+
+.bovien {
+    border-radius: 6px;
+}
