@@ -62,11 +62,20 @@ body {
 }
 
 @media (max-width:991px) {
-    html,body {
+    html,
+    body {
         font-size: 79%;
     }
     body {
-        
+        .fx8 .fc6 a {
+            margin-top: 10px;
+        }
+        .fx8 .fc2 .fc5 {
+            margin-top: 15px;
+        }
+        .fx .fc1 .fc2 {
+            display: none;
+        }
         .fx5 .fc2 .fc4 {
             height: 320px!important;
         }
@@ -107,7 +116,7 @@ body {
         }
     }
     .fc1 {
-        .fontc(1.6rem);
+        .fontt(1.6rem);
         text-transform: uppercase;
         display: table;
         margin: 30px auto 0;
@@ -350,4 +359,161 @@ body {
     .fc9 {
         margin-top: 30px;
     }
+    .fc10 {
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 30px;
+        img {
+            width: 100%;
+            min-height: 100%;
+        }
+    }
+    .fc11 {
+        .fontc(1.8rem);
+        color: @xxam;
+        .fc12 {
+            .fontt(1.8rem);
+            color: @do;
+            padding: 15px 0;
+        }
+    }
+}
+
+.fx7 {
+    background-color: @xam;
+    padding: 30px 0 30px;
+    .fc {
+        .fx4.fc;
+        .fc1 {
+            .fx4.fc.fc1;
+        }
+    }
+    .fc2 {
+        margin-top: 30px;
+        width: 100%;
+        height: 380px;
+        border: 1px solid @cam;
+        .bovien;
+        .fc3 {
+            img {
+                display: block;
+                margin: 30px auto;
+            }
+        }
+        .fc4 {
+            .fontc(1.8rem);
+            color: @xxam;
+            text-align: center;
+            padding: 0 5px 0;
+            .fc5 {
+                .fontt(1.8rem);
+                margin: 10px 0 5px;
+                color: @do;
+            }
+        }
+    }
+}
+
+.fx8 {
+    background-color: @white;
+    padding: 30px 0 30px;
+    .fc {
+        .fx4.fc;
+        .fc1 {
+            .fx4.fc.fc1;
+        }
+    }
+    .fc2 {
+        margin-top: 30px;
+        .fontc(1.8rem);
+        .fc3 {
+            label {
+                .fontt(1.8rem);
+                color: @cam;
+                text-transform: uppercase;
+                width: 100%;
+            }
+            input {
+                width: 100%;
+                height: 40px;
+                padding-left: 10px;
+            }
+            &:nth-child(2n) {
+                margin-top: 15px;
+            }
+        }
+        .fc4 {
+            margin-top: 15px;
+            textarea {
+                width: 100%;
+                height: 100px;
+                padding-left: 10px;
+            }
+        }
+        .fc5 {}
+    }
+    .fc6 {
+        width: 100%;
+        height: 50px;
+        background-color: @do;
+        text-align: center;
+        margin-top: 25px;
+        a {
+            .fontt(1.8rem);
+            text-transform: uppercase;
+            color: @white;
+            padding-top: 13px;
+            display: block;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.fx9 {
+    background-color: @xanh;
+    padding: 30px 0 30px;
+    color: @white;
+    .fc {
+        .fontt(1.8rem);
+        text-transform: uppercase;
+    }
+    .fc1 {
+        .fontc(1.8rem);
+    }
+    .fc2 {
+        margin-top: 30px;
+        .fontc(1.8rem);
+        li {
+            margin: 10px 0;
+            img {
+                margin-right: 15px;
+            }
+        }
+    }
+    .fc3 {
+        width: 100%;
+        .fontc(1.8rem);
+        .fc4 {
+            height: 172px;
+            background-color: @white;
+            margin-top: 15px;
+            img {
+                display: block;
+                margin: auto;
+                padding: 15px 0;
+            }
+        }
+    }
+}
+.dangky {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+.final {
+    display: none;
 }
